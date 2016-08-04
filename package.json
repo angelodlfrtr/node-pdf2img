@@ -1,5 +1,5 @@
 {
-  "name": "pdf2img",
+  "name": "node-pdf2img",
   "version": "1.0.0",
   "description": "Convert pdf to image with imagemagick",
   "main": "index.js",
@@ -13,7 +13,9 @@
   "keywords": [
     "pdf",
     "imagemagick",
-    "image"
+    "image",
+    "node-pdf2img",
+    "pdf2img"
   ],
   "author": "Angelo Delefortrie <angelo.delefortrie@gmail.com>",
   "license": "ISC",
@@ -22,6 +24,7 @@
   },
   "homepage": "https://github.com/angelodlfrtr/node-pdf2img#readme",
   "dependencies": {
-    "bluebird": "^3.4.1"
+    "bluebird": "^3.4.1",
+    "node-uuid": "^1.4.7"
   }
 }
