@@ -1,0 +1,27 @@
+{
+  "name": "pdf2img",
+  "version": "1.0.0",
+  "description": "Convert pdf to image with imagemagick",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/angelodlfrtr/node-pdf2img.git"
+  },
+  "keywords": [
+    "pdf",
+    "imagemagick",
+    "image"
+  ],
+  "author": "Angelo Delefortrie <angelo.delefortrie@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/angelodlfrtr/node-pdf2img/issues"
+  },
+  "homepage": "https://github.com/angelodlfrtr/node-pdf2img#readme",
+  "dependencies": {
+    "bluebird": "^3.4.1"
+  }
+}
